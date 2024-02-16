@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title></title>
+</head>
+<body>
+	
+	<div class="mdiv">
+		<div class="container" align="center">
+			<form>
+	 <div>
+	 	<h3 class="cal"> CALCULATOR </h3>
+	 	<input type="text" name="op" disabled class="op">
+	      
+	 </div>
+	 <div>
+	 	<input type="button"  value="C"  class="md">
+	 	<input type="button"  value="AC" onclick="op.value='' "/>
+	 	<input type="button"  value="/" onclick="op.value=" class="opr"/>
+	 	<input type="button"  value="%" onclick="op.value='' " class="opr" />
+	 </div>
+	 <div>
+	 	<input type="button"  value="9" onclick="op.value+='9'" class="md">
+	 	<input type="button"  value="8" onclick="op.value+='8'"/>
+	 	<input type="button"  value="7" onclick="op.value+='7' "/>
+	 	<input type="button"  value="+" onclick="op.value+='+' " class="opr"/>
+
+	 </div>
+	 <div>
+	 	<input type="button"  value="6" onclick="op.value+='6' " class="md">
+	 	<input type="button"  value="5" onclick="op.value+='5' "/>
+	 	<input type="button"  value="4" onclick="op.value+='4' "/>
+	 	<input type="button"  value="-" onclick="op.value+='-' " class="opr" />
+
+	 </div>
+	 <div>
+	 	<input type="button"  value="3" onclick="op.value+='3' " class="md">
+	 	<input type="button"  value="2" onclick="op.value+='2' "/>
+	 	<input type="button"  value="1" onclick="op.value+='1' "/>
+	 	<input type="button" value="*" onclick="op.value+='*' " class="opr" />
+
+	 </div>
+	 <div>
+	 	<input type="button"  value="0" onclick="op.value+='0' " class="md">
+	 	<input type="button"  value="." onclick="op.value+='.' " class="md"/>
+	 	<input type="button" class="eq" value="=" onclick="op.value=eval(op.value)" class="opr"/>
+	 </div>
+	</form>
+</div>
+</div>
+
+</body>
+</html>
