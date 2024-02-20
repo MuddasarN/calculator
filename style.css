@@ -19,7 +19,9 @@
 			padding: 45px;
 			background-color: grey;
 			border-top-left-radius: 100px;
-			border-bottom-right-radius: 100px
+			border-bottom-right-radius: 100px;
+			background-image: url("https://ryansechrest.com/content/images/2022/08/nodes.gif");
+
 			
 		}
 		input{
